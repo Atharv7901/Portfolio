@@ -1,2 +1,2 @@
 # Portfolio
-My portfolio, not final yet
+My short portfolio
