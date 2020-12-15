@@ -1,0 +1,188 @@
+.left{
+    margin-right: auto;
+}
+.right{
+    margin-left: auto;
+}
+.fab{
+    font-size: 25px;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto';
+  }
+.wrapper {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/ath_1.JPG');
+    background-size: cover;
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .circle_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 10px;
+    transform-origin: left center;
+  }
+  .circle {
+    position: absolute;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    left: 0;
+    opacity: 0;
+    animation-name: move;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes move {
+  0% {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+
+  1% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translateX(70vmin);
+    opacity: 0;
+  }
+}
+
+
+.wrapper .name_container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vmin;
+  height: 80vmin;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  box-shadow: inset 0px 0px 30px 30px rgba(200, 200, 200, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+   /* div{
+    font-family: 'Rock Salt';
+    color:black;
+  } */
+  .name {
+    /* font-size: 5.5vmax; */
+    font-size: 4rem;
+  }
+  .designation {
+    margin-top: 10px;
+    font-size: 2vmax;
+    text-align: center;
+  }
+  *{ margin:0; padding:0; box-sizing: border-box;}
+  .pCont{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Luckiest Guy';
+  }
+  .footer{
+    background-color: black;
+    color: grey;
+    padding: 4rem 5rem;
+  }
+  hr{
+    color: white;
+  }
+  .Copyright{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .Copyright a{
+    color: white;
+  }
+  .midFoot{
+    margin: auto;
+
+  }
+  #myName{
+    font-size: 4rem;
+    font-family: 'Luckiest Guy';
+  }
+.fab{
+  margin-left: 1rem;
+}
+
+#eduContent{
+  text-align: center;
+  margin-top: 350px;
+  font-size: 4rem;
+  font-family: 'Luckiest Guy';
+}
+.skillIcon{
+  font-size: 4rem;
+  margin-left: 550px;
+  margin-top: 3rem;
+}
+.skillTab{
+  background-image: url('https://cdn.hipwallpaper.com/i/77/16/x3tb2U.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .skillCont{
+  margin-bottom: 4rem;
+} */
+/* .skillHead{
+  margin-left: 2.5rem;
+} */
+.eduFirst{
+  background-image: url('https://images.ctfassets.net/hrltx12pl8hq/6f2M9koJF7uhwGGao7WCX5/8683a9c8388dada729c7caeefc87872b/compressed_shutterstock_1274296330.jpg?fit=fill&w=800&h=300');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.eduBody{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.navbar.scrolled {
+   background: #f33b57;  
+  color: red;
+  transition: background  1000ms;
+}
+.One{
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.name{
+  font-family: 'Righteous';
+  color:#a8633b;
+}
+.about{
+  background-color: black;
+  color:white;
+  margin-top: 0;
+}
+.skills{
+  background-color: black;
+  color: white;
+  margin-bottom: 1rem;
+}
+.card-body{
+  font-family: 'Roboto';
+}
